@@ -1,0 +1,19 @@
+body {
+    background-image: url("bgbiodata1.jpg");
+}
+
+h1{
+    color: white;
+}
+
+.table, tr, td {
+    color: white;
+    background-color: black;
+    
+}
+
+table {
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact_us.css">
+    <title>contact_us</title>
+</head>
+<body>
+    <div class="jumbotron container text-center">
+        <a href="index.html"><button class="btn btn-outline-dark">Home</button></a>
+        <h2>CONTACT US</h2>
+    </div>
+    <form action="/action_page.php">
+        <label for="nm">Nama:</label>
+        <input type="text" id="nm" name="nm"><br>
+     <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+    <br>
+        <label for="unm">Username:</label>
+        <input type="text" id="unm" name="unm"><br>
+    <br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass"><br>
+    <br>
+        jenis kelamin
+        <input type="radio" id="pria" name="gender" value="pria">
+        <label for="pria">laki-laki</label>
+
+        <input type="radio" id="wanita" name="gender" value="wanita">
+        <label for="wanita">perempuan</label><br>
+    <br>
+        <label for="agama">Agama:</label>
+        <select id="agama" name="agama">
+            <option value="kristenprotestan">Kristen Protestan</option>
+            <option value="islam">Islam</option>
+            <option value="budha">Budha</option>
+            <option value="konghucu">konghucu</option>
+            <option value="katolik">Katolik</option>
+        </select><br>
+    <br>
+        <label for="alamat">alamat</label>
+        <textarea name="alamat" rows="5" cols="30"></textarea><br>
+    <br>
+        Hobi:
+        <input type="checkbox" id="hobi1" name="hobi1" value="belajar">
+        <label for="hobi1">belajar</label>
+
+        <input type="checkbox" id="hobi2" name="hobi2" value="olahraga">
+        <label for="hobi2">olahraga</label>
+
+        <input type="checkbox" id="hobi3" name="hobi3" value="mainmusik">
+        <label for="hobi3">main musik</label>
+
+        <input type="checkbox" id="hobi4" name="hobi4" value="memeliharabinatang">
+        <label for="hobi4">memelihara binatang</label><br>
+<br>
+<br>
+        <button class="btn btn-outline-primary" type="submit">Submit</button>
+    </form>
+</body>
+</html>
